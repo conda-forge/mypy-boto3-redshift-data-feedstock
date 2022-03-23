@@ -1,5 +1,5 @@
 {% set name = "mypy-boto3-redshift-data" %}
-{% set version = "1.21.0" %}
+{% set version = "1.21.23.post1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mypy-boto3-redshift-data-{{ version }}.tar.gz
-  sha256: 5e64786bda592ed9da293f17c2d99b6963a37e79775a62e7219b5bd4166ddebf
+  sha256: 67c9cf440b188bc66cac2b1821331118541b4f7a8ea4597e02d7ef7bb9a89d95
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.6
     - boto3
-    - typing-extensions
+    - typing-extensions >=4.1.0
 
 test:
   imports:
