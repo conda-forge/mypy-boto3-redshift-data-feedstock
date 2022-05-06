@@ -1,5 +1,5 @@
 {% set name = "mypy-boto3-redshift-data" %}
-{% set version = "1.22.0.post1" %}
+{% set version = "1.22.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mypy-boto3-redshift-data-{{ version }}.tar.gz
-  sha256: 7bb72e52291582b7ff85d3e55de5e99a5bc8508766467387ae67f54a19b7f81d
+  sha256: 2f059c7227bc3f70c614cc4b3cf8ab2458e1cde2a166be76a865cd224707414f
 
 build:
   noarch: python
