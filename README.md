@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mypy-boto3-redshift-data-feedstock/blob/main/LICENSE.txt)
 
-Summary: Type annotations for boto3.RedshiftDataAPIService 1.25.0 service generated with mypy-boto3-builder 7.11.10
+Summary: Type annotations for boto3.RedshiftDataAPIService 1.26.0 service generated with mypy-boto3-builder 7.11.10
 
 Development: https://github.com/youtype/mypy_boto3_builder
 
