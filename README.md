@@ -7,7 +7,7 @@ Home: https://github.com/youtype/mypy_boto3_builder
 
 Package license: MIT
 
-Summary: Type annotations for boto3.RedshiftDataAPIService 1.28.0 service generated with mypy-boto3-builder 7.14.5
+Summary: Type annotations for boto3.RedshiftDataAPIService 1.28.12 service generated with mypy-boto3-builder 7.15.2
 
 Development: https://github.com/youtype/mypy_boto3_builder
 
