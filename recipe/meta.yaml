@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/youtype/mypy_boto3_builder
-  summary: Type annotations for boto3.RedshiftDataAPIService 1.28.15 service generated with mypy-boto3-builder 7.16.1
+  summary: Type annotations for boto3.RedshiftDataAPIService 1.28.15 service generated with mypy-boto3-builder 7.16.2
   dev_url: https://github.com/youtype/mypy_boto3_builder
   license: MIT
   license_family: MIT
