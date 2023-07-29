@@ -1,5 +1,5 @@
 {% set name = "mypy-boto3-redshift-data" %}
-{% set version = "1.28.15" %}
+{% set version = "1.28.15.post1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/mypy-boto3-redshift-data-{{ version }}.tar.gz
-  sha256: e664bf8ffa82f9b6800da797a207bcd7a804e7c67c8ddedf90695db6140c5f2f
+  sha256: 1feab375a92e786068b83f3690a2c63e8413788cac57d2c7ff3b3baba34c7aac
 
 build:
   noarch: python
@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/youtype/mypy_boto3_builder
-  summary: Type annotations for boto3.RedshiftDataAPIService 1.28.15 service generated with mypy-boto3-builder 7.16.1
+  summary: Type annotations for boto3.RedshiftDataAPIService 1.28.15 service generated with mypy-boto3-builder 7.16.2
   dev_url: https://github.com/youtype/mypy_boto3_builder
   license: MIT
   license_family: MIT
