@@ -1,5 +1,5 @@
 {% set name = "mypy-boto3-redshift-data" %}
-{% set version = "1.35.10" %}
+{% set version = "1.35.51" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 2cfe518ef3027c2b050facffd2621924458ddf2fb3df9699cdba33e8a6859594
+  sha256: c0217d56a287f0606098a1ec2597c06cd79fbbfccbc36a62489a6e39a4389cca
 
 build:
   noarch: python
@@ -20,6 +20,7 @@ requirements:
     - pip
     - setuptools
   run:
+    - typing_extensions >=4.1.0
     - python >=3.7
     - boto3
     - typing-extensions >=4.1.0
