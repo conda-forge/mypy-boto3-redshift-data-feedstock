@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mypy-boto3-redshift-data
-  version: "1.42.87"
+  version: 1.43.0
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 2a315710adeb7183a068dd6e9f0d26171a96f1528fcec613f792903b80d3669f
+  sha256: 37c5637072db2b66ddd8d777dfc1d9bc0de07e848de7cd6a32c6c88e476fd502
 
 build:
   number: 0
@@ -24,9 +24,7 @@ requirements:
     - setuptools >=60
   run:
     - python >=${{ python_min }}
-    - boto3
     - typing_extensions
-
 tests:
   - python:
       imports:
