@@ -24,6 +24,7 @@ requirements:
     - setuptools >=60
   run:
     - python >=${{ python_min }}
+    - boto3
     - typing_extensions
 tests:
   - python:
