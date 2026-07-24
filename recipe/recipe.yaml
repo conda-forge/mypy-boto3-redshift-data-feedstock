@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: mypy-boto3-redshift-data
-  version: "1.43.53"
+  version: "1.43.55"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: e92d278c9fba5d2e8245def6969af9a8a3f286e3f17b25adf7457e48dba033da
+  sha256: eed9e5f2ef9a3ac5114b49c8743b68f04a466b2944557ee3b9bd76ca8eba3d91
 
 build:
   number: 0
